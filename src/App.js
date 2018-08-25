@@ -3,6 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  state = {
+    // sectionClasses: {
+    //   about: {
+    //     header: "About",
+    //     content: ".....text....",
+    //     inuse: true
+    //   }
+    // }
+    sectionClasses: {}
+  }
+
   render() {
     return (
       <div className="App">
